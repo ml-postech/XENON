@@ -1,0 +1,8 @@
+{
+  "action": {
+    "craft iron_sword": {
+      "success": 10,
+      "failure": 0
+    }
+  }
+}

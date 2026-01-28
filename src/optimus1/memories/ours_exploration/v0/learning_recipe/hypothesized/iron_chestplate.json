@@ -1,0 +1,11 @@
+{
+  "item_name": "iron_chestplate",
+  "output_qty": 1,
+  "ingredients": {
+    "iron_ingot": 8,
+    "leather": 8
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

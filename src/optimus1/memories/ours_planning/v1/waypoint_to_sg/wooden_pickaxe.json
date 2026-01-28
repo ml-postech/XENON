@@ -1,0 +1,8 @@
+{
+  "action": {
+    "craft wooden_pickaxe": {
+      "success": 10,
+      "failure": 0
+    }
+  }
+}

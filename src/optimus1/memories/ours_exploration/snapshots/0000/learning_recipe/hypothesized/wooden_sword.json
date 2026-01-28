@@ -1,0 +1,12 @@
+{
+  "item_name": "wooden_sword",
+  "output_qty": 1,
+  "ingredients": {
+    "stick": 1,
+    "planks": 1,
+    "crafting_table": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

@@ -1,0 +1,10 @@
+{
+  "item_name": "charcoal",
+  "output_qty": 1,
+  "ingredients": {
+    "logs": 8
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

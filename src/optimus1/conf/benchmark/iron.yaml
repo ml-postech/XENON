@@ -1,0 +1,38 @@
+# @package _global_
+defaults:
+  - _self_
+
+
+env:
+  name: IronTaskEnv-v0
+  max_minutes: 10 #  = max_minutes * 1200 steps
+  initial_inventory: [] # https://minecraft.wiki/w/Item name to snake_case
+      #- {type: "stone_pickaxe", quantity: 1, slot: 0}
+  times: 20
+  prefer_biome: plains
+
+
+evaluate: []  # [] means select all
+
+exploration_task:
+  - {id: 0, type: craft, instruction: Craft lantern, goal: lantern}
+  - {id: 1, type: craft, instruction: Craft iron_door, goal: iron_door}
+
+all_task:
+  - {id: 0, type: craft, instruction: Craft a iron shovel, goal: iron_shovel}
+  - {id: 1, type: craft, instruction: Craft a iron pickaxe, goal: iron_pickaxe}
+  - {id: 2, type: craft, instruction: Craft a iron axe, goal: iron_axe}
+  - {id: 3, type: craft, instruction: Craft a iron hoe, goal: iron_hoe}
+  - {id: 4, type: craft, instruction: Craft a bucket, goal: bucket}
+  - {id: 5, type: craft, instruction: Craft a hopper, goal: hopper}
+  - {id: 6, type: craft, instruction: Craft a rail, goal: rail}
+  - {id: 7, type: craft, instruction: Craft a iron sword, goal: iron_sword}
+  - {id: 8, type: craft, instruction: Craft a shears, goal: shears}
+  - {id: 9, type: craft, instruction: Craft a smithing table, goal: smithing_table}
+  - {id: 10, type: craft, instruction: Craft a tripwire hook, goal: tripwire_hook}
+  - {id: 11, type: craft, instruction: Craft a chain, goal: chain}
+  - {id: 12, type: craft, instruction: Craft an iron bars, goal: iron_bars}
+  - {id: 13, type: craft, instruction: Craft an iron nugget, goal: iron_nugget}
+  - {id: 14, type: craft, instruction: Craft a blast furnace, goal: blast_furnace}
+  - {id: 15, type: craft, instruction: Craft a stonecutter, goal: stonecutter}
+  # - {id: 16, type: mine, instruction: dig down to mine iron ore, goal: iron_ore}

@@ -1,0 +1,8 @@
+{
+  "action": {
+    "craft iron_pickaxe": {
+      "success": 2,
+      "failure": 0
+    }
+  }
+}

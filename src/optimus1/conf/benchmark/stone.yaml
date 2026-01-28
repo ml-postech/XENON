@@ -1,0 +1,31 @@
+# @package _global_
+defaults:
+  - _self_
+
+
+env:
+  name: StoneTaskEnv-v0
+  max_minutes: 6 #  = max_minutes * 1200 steps
+  initial_inventory: [] # https://minecraft.wiki/w/Item name to snake_case
+      #- {type: "wooden_pickaxe", quantity: 1, slot: 0}
+  times: 20 # Number of times to run the task Jarvis-1: >=30
+  prefer_biome: plains
+
+
+evaluate: []  # [] means select all
+
+exploration_task:
+  - {id: 0, type: craft, instruction: Craft cobblestone_stairs, goal: cobblestone_stairs}
+  - {id: 1, type: craft, instruction: Craft cobblestone_wall, goal: cobblestone_wall}
+
+all_task:
+  - {id: 0, type: craft, instruction: Craft a stone shovel, goal: stone_shovel}
+  - {id: 1, type: craft, instruction: Craft a stone pickaxe, goal: stone_pickaxe}
+  - {id: 2, type: craft, instruction: Craft a stone axe, goal: stone_axe}
+  - {id: 3, type: craft, instruction: Craft a stone hoe, goal: stone_hoe}
+  - {id: 4, type: craft, instruction: Smelt a charcoal, goal: charcoal}
+  - {id: 5, type: craft, instruction: Craft a smoker, goal: smoker}
+  - {id: 6, type: craft, instruction: Craft a stone sword, goal: stone_sword}
+  - {id: 7, type: craft, instruction: Craft a furnace, goal: furnace}
+  - {id: 8, type: craft, instruction: Craft a torch, goal: torch}
+  # - {id: 9, type: mine, instruction: dig down to mine cobblestone, goal: cobblestone}

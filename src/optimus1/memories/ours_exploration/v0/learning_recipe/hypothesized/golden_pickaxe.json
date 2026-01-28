@@ -1,0 +1,12 @@
+{
+  "item_name": "golden_pickaxe",
+  "output_qty": 1,
+  "ingredients": {
+    "stick": 2,
+    "gold_ingot": 3,
+    "crafting_table": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

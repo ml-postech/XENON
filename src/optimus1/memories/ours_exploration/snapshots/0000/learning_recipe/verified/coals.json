@@ -1,0 +1,7 @@
+{
+  "item_name": "coals",
+  "output_qty": 1,
+  "ingredients": {},
+  "required_pickaxe": 2,
+  "is_crafting_resource": false
+}

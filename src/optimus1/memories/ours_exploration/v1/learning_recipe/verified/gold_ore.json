@@ -1,0 +1,7 @@
+{
+  "item_name": "gold_ore",
+  "output_qty": 1,
+  "ingredients": {},
+  "required_pickaxe": 3,
+  "is_crafting_resource": false
+}

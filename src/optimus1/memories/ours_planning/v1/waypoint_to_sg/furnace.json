@@ -1,0 +1,8 @@
+{
+  "action": {
+    "craft furnace": {
+      "success": 10,
+      "failure": 0
+    }
+  }
+}

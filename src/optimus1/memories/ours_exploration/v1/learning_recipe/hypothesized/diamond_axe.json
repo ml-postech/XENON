@@ -1,0 +1,13 @@
+{
+  "item_name": "diamond_axe",
+  "output_qty": 1,
+  "ingredients": {
+    "stick": 3,
+    "iron_ingot": 4,
+    "diamond": 1,
+    "crafting_table": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

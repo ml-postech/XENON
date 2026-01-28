@@ -1,0 +1,8 @@
+{
+  "action": {
+    "chop a tree": {
+      "success": 3,
+      "failure": 0
+    }
+  }
+}

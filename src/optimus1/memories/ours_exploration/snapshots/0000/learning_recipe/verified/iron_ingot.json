@@ -1,0 +1,11 @@
+{
+  "item_name": "iron_ingot",
+  "output_qty": 1,
+  "ingredients": {
+    "furnace": 1,
+    "iron_ore": 1,
+    "coals": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": true
+}

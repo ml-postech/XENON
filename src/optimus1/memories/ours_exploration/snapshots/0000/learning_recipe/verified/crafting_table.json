@@ -1,0 +1,9 @@
+{
+  "item_name": "crafting_table",
+  "output_qty": 1,
+  "ingredients": {
+    "planks": 4
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false
+}

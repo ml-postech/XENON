@@ -1,0 +1,11 @@
+{
+  "item_name": "redstone_torch",
+  "output_qty": 1,
+  "ingredients": {
+    "coals": 1,
+    "redstone_dust": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

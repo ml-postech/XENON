@@ -1,0 +1,11 @@
+{
+  "item_name": "chest",
+  "output_qty": 1,
+  "ingredients": {
+    "logs": 1,
+    "planks": 7
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

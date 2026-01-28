@@ -1,0 +1,10 @@
+{
+  "item_name": "furnace",
+  "output_qty": 1,
+  "ingredients": {
+    "cobblestone": 8,
+    "crafting_table": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false
+}

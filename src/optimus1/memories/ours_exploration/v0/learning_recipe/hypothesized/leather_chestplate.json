@@ -1,0 +1,11 @@
+{
+  "item_name": "leather_chestplate",
+  "output_qty": 1,
+  "ingredients": {
+    "leather": 8,
+    "crafting_table": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

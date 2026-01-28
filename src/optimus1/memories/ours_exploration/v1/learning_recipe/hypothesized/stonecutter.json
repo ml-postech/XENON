@@ -1,0 +1,11 @@
+{
+  "item_name": "stonecutter",
+  "output_qty": 1,
+  "ingredients": {
+    "stone_slab": 1,
+    "crafting_table": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

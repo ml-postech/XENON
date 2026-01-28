@@ -1,0 +1,10 @@
+{
+  "item_name": "iron_nugget",
+  "output_qty": 1,
+  "ingredients": {
+    "gold_nugget": 9
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

@@ -1,0 +1,11 @@
+{
+  "item_name": "diamond_leggings",
+  "output_qty": 1,
+  "ingredients": {
+    "iron_pickaxe": 1,
+    "diamond": 3
+  },
+  "required_pickaxe": 3,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

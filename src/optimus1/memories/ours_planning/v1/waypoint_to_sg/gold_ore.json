@@ -1,0 +1,8 @@
+{
+  "action": {
+    "dig down and mine gold_ore": {
+      "success": 10,
+      "failure": 0
+    }
+  }
+}

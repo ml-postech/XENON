@@ -1,0 +1,11 @@
+{
+  "item_name": "stone_pickaxe",
+  "output_qty": 1,
+  "ingredients": {
+    "stick": 2,
+    "cobblestone": 3,
+    "crafting_table": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false
+}

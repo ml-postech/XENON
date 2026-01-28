@@ -1,0 +1,11 @@
+{
+  "item_name": "golden_shovel",
+  "output_qty": 1,
+  "ingredients": {
+    "stick": 1,
+    "golden_sword": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

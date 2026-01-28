@@ -1,0 +1,12 @@
+{
+  "item_name": "golden_leggings",
+  "output_qty": 1,
+  "ingredients": {
+    "iron_pickaxe": 1,
+    "gold_ore": 3,
+    "crafting_table": 1
+  },
+  "required_pickaxe": 3,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

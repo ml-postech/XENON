@@ -1,0 +1,10 @@
+{
+  "item_name": "ladder",
+  "output_qty": 1,
+  "ingredients": {
+    "logs": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

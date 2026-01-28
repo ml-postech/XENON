@@ -1,0 +1,11 @@
+{
+  "item_name": "stone_shovel",
+  "output_qty": 1,
+  "ingredients": {
+    "stone": 1,
+    "stick": 2
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

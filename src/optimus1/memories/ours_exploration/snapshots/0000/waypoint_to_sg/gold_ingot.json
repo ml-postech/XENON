@@ -1,0 +1,8 @@
+{
+  "action": {
+    "smelt gold_ingot": {
+      "success": 1,
+      "failure": 0
+    }
+  }
+}

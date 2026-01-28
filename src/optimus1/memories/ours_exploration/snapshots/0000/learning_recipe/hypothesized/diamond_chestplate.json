@@ -1,0 +1,13 @@
+{
+  "item_name": "diamond_chestplate",
+  "output_qty": 1,
+  "ingredients": {
+    "coals": 3,
+    "diamond": 1,
+    "crafting_table": 1,
+    "string": 2
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

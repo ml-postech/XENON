@@ -1,0 +1,8 @@
+{
+  "action": {
+    "craft crafting_table": {
+      "success": 10,
+      "failure": 0
+    }
+  }
+}

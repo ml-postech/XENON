@@ -1,0 +1,43 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Virtual environments
+.venv
+
+# ckpt
+checkpoints/
+
+# log
+logs/
+log/
+*.log
+
+# videos
+videos/
+imgs
+*.zip
+*.tar.gz
+*.tar
+
+# experiment results
+exp_results/
+
+
+slurm_experiments/
+
+# *.jpg
+wandb/
+
+# torch embeddings
+*.pt
+
+.vscode/

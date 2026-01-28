@@ -1,0 +1,28 @@
+# @package _global_
+defaults:
+  - _self_
+
+
+env:
+  name: RedStoneTaskEnv-v0
+  max_minutes: 30 #  = max_minutes * 1200 steps
+  initial_inventory: [] # https://minecraft.wiki/w/Item name to snake_case
+      #- {type: "iron_pickaxe", quantity: 1, slot: 0}
+  times: 20 # Number of times to run the task Jarvis-1: >=30
+  prefer_biome: forest
+
+
+evaluate: [5]  # [] means select all
+
+exploration_task:
+  - {id: 0, type: craft, instruction: Craft clock, goal: clock}
+  - {id: 1, type: craft, instruction: Craft powered_rail, goal: powered_rail}
+
+all_task:
+  - {id: 0, type: craft, instruction: Craft a piston, goal: piston}
+  - {id: 1, type: craft, instruction: Craft a redstone torch, goal: redstone_torch}
+  - {id: 2, type: craft, instruction: Craft an activator rail, goal: activator_rail}
+  - {id: 3, type: craft, instruction: Craft a compass, goal: compass}
+  - {id: 4, type: craft, instruction: Craft a dropper, goal: dropper}
+  - {id: 5, type: craft, instruction: Craft a note block, goal: note_block}
+  # - {id: 6, type: mine, instruction: dig down to mine redstone, goal: redstone}

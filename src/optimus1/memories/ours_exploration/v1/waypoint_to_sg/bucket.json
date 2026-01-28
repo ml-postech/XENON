@@ -1,0 +1,8 @@
+{
+  "action": {
+    "craft bucket": {
+      "success": 0,
+      "failure": 2
+    }
+  }
+}

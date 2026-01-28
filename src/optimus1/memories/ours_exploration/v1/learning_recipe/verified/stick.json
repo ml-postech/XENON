@@ -1,0 +1,9 @@
+{
+  "item_name": "stick",
+  "output_qty": 4,
+  "ingredients": {
+    "planks": 2
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": true
+}

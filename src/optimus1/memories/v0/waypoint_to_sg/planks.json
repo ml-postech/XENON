@@ -1,0 +1,8 @@
+{
+  "action": {
+    "craft planks": {
+      "success": 3,
+      "failure": 0
+    }
+  }
+}

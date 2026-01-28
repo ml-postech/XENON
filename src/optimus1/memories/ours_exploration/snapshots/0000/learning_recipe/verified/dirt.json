@@ -1,0 +1,7 @@
+{
+  "item_name": "dirt",
+  "output_qty": 1,
+  "ingredients": {},
+  "required_pickaxe": 1,
+  "is_crafting_resource": false
+}

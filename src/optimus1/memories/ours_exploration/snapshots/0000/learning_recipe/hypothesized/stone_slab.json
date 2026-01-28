@@ -1,0 +1,11 @@
+{
+  "item_name": "stone_slab",
+  "output_qty": 1,
+  "ingredients": {
+    "stone_pickaxe": 1,
+    "cobblestone": 4
+  },
+  "required_pickaxe": 2,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

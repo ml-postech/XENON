@@ -1,0 +1,93 @@
+defaults:
+  - _self_
+  - benchmark: diamond
+
+benchmark: diamond
+
+exp_num: 0
+seed: 0
+world_seed: 0
+
+plan_model: Qwen/Qwen2.5-VL-7B-Instruct
+# Qwen/Qwen2.5-VL-7B-Instruct
+
+exploration: False
+exploration_uuid: "qwer"
+
+version: v1
+type: headless
+prefix: "ours_planning"
+
+server:
+  url: http://127.0.0.1
+  port: 9000
+  timeout: 60
+
+task:
+  interactive: False
+  instruction: craft a diamond pickaxe
+
+
+memory:
+  is_fixed: False
+  path: src/optimus1/memories/${prefix}/${version}
+  # path: src/optimus1/memories/${prefix}/${plan_model}/${version}
+  snapshot_base: src/optimus1/memories/${prefix}/snapshots
+  plan_failure_threshold: 2
+  inadmissible_threshold: 3 # if making an item is failed inadmissible_threshold times, it is considered inadmissible
+  topK: 3
+  plan:
+    save_path: save_plan/<status>
+    path: plan/<status>
+    file: <task>.json
+  reflection:
+    save_path: save_reflection
+    path: reflection
+    img_path: img
+    file: <task>.json
+  replan:
+    save_path: save_replan
+    path: replan
+    file: <task>.json
+  recipe:
+    base: learning_recipe
+    verified:
+      path: verified
+    hypothesized:
+      path: hypothesized
+  waypoint_to_sg:
+    save_path: save_waypoint_to_sg
+    path: waypoint_to_sg
+  decomposed_plan:
+    save_path: save_decomposed_plan/<status>
+    path: decomposed_plan/<status>
+    file: <task>.json
+
+
+record:
+  video:
+    save: True
+    path: videos/${version}
+    name: ${task.instruction}
+    sub_task: True
+  action:
+    save: False
+    sub_task: False
+
+results:
+  save: True
+  path: exp_results/${version}
+
+commands:
+  - /gamerule sendCommandFeedback false
+  - /gamerule commandBlockOutput false
+  - /gamerule keepInventory true # Keep inventory after death
+  - /effect give @a night_vision 99999 250 true # Permanent night vision
+  - /gamerule doDaylightCycle false # Always daytime
+  - /time set 0 # Set time to 0
+  - /gamerule doImmediateRespawn true # Instant respawn after death
+  - /spawnpoint # Set spawn point to initial point
+
+hydra:
+  run:
+    dir: ./logs/eval/${now:%Y-%m-%d}/${now:%H-%M-%S-%f}

@@ -1,0 +1,12 @@
+{
+  "item_name": "diamond_boots",
+  "output_qty": 1,
+  "ingredients": {
+    "diamond": 1,
+    "leather_boots": 1,
+    "crafting_table": 1
+  },
+  "required_pickaxe": 0,
+  "is_crafting_resource": false,
+  "exploration_count": 1
+}

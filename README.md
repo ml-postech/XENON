@@ -20,6 +20,8 @@
 <div align="center">
     <a href="https://openreview.net/forum?id=N22lDHYrXe" target="_blank">
     <img src="https://img.shields.io/badge/Paper-OpenReview-deepgreen" alt="Paper OpenReview"></a>
+    <a href="https://arxiv.org/abs/2505.24157/" target="_blank">
+    <img src="https://img.shields.io/badge/Paper-ArXiv-red" alt="Paper ArXiv"></a>
     <a href="https://sjlee-me.github.io/XENON/" target="_blank">
     <img src="https://img.shields.io/badge/Project_Page-XENON-blue" alt="Project Page"></a>
 </div>
